@@ -1,0 +1,11 @@
+version: 0.2
+batch:
+build-list:
+- identifier: build1
+buildspec: analyticsBuildspec.yml
+- identifier: build2
+buildspec: buildspec.yml
+phases:
+build:
+commands:
+- echo "Main buildspec executed"
