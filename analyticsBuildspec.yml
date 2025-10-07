@@ -1,10 +1,10 @@
 version: 0.2
 batch:
-build-list:
-- identifier: analytics1
-- identifier: analytics2
+  build-list:
+    - identifier: analytics1
+    - identifier: analytics2
 phases:
-build:
-commands:
-- echo "Using ANALYTICS buildspec override"
-- echo "This SHOULD appear if override works"
+  build:
+    commands:
+      - echo "Using ANALYTICS buildspec override"
+      - echo "This SHOULD appear if override works"
