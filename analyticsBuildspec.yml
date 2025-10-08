@@ -4,10 +4,11 @@ batch:
     - identifier: analytics1
     - identifier: analytics2
 phases:
-  install:
-    runtime-versions:
-      nodejs: 18
   build:
     commands:
       - echo "Using ANALYTICS buildspec override"
       - echo "This SHOULD appear if override works"
+artifacts:
+  files:
+    - '**/*'
+  name: BuildArtifact
