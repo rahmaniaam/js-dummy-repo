@@ -1,7 +1,7 @@
 {
   "name": "js-dummy-repo",
   "version": "1.0.0",
-  "description": "just a repo for work",
+  "description": "just a repo for work again",
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test specified\""
